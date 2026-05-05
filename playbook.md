@@ -1,6 +1,6 @@
 # AI Visibility Playbook – Real Estate Agent Edition
 
-**Orchestrator:** Claude Opus 4.6  
+**Orchestrator:** Kimi-k2.6  
 **Sub-agents:** Tencent HY3 (all execution roles)  
 **Auditor:** OpenAI GPT 5.4
 
@@ -8,7 +8,7 @@
 Deliver a complete done-for-you system that makes real estate agents discoverable when buyers ask ChatGPT, Gemini, or Claude "who's the best agent in ?"
 
 ## Agent Roles
-- **Claude Opus 4.6 (Orchestrator)**: Breaks down tasks, assigns to Tencent HY3 agents, tracks progress, routes everything to Auditor.
+- **Kimi-k2.6 (Orchestrator)**: Breaks down tasks, assigns to Tencent HY3 agents, tracks progress, routes everything to Auditor.
 - **Tencent HY3 agents**: Handle all execution (Research, Profile Optimizer, Content Engine, Review & Citation, Delivery & Loom).
 - **OpenAI GPT 5.4 (Auditor)**: Scores every output 1–10. Rejects anything below 9 and sends it back.
 
@@ -43,6 +43,6 @@ Every post must use the agent's full name, city name, and structured lists.
 5. Claim profiles on every directory (Yelp, RateMyAgent, etc.)
 
 ## Execution Rules
-Claude Opus 4.6 must break every new city/agent into subtasks, assign only to Tencent HY3 agents, and never release a deliverable until OpenAI GPT 5.4 approves it with a 9+ score.
+Kimi-k2.6 must break every new city/agent into subtasks, assign only to Tencent HY3 agents, and never release a deliverable until OpenAI GPT 5.4 approves it with a 9+ score.
 
 Start processing the first agent when given a name and city.
